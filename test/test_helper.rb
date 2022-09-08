@@ -1,3 +1,5 @@
+$LOAD_PATH.unshift File.expand_path('../definitions', __dir__)
+
 require 'foreman_maintain'
 require 'minitest/spec'
 require 'minitest/autorun'
